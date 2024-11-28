@@ -1,0 +1,62 @@
+/* General reset and layout styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-info h1 {
+    margin-bottom: 10px;
+}
+
+.header-info p {
+    margin: 5px 0;
+}
+
+.skills, .experience, .education, .projects {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.job, .degree, .project {
+    margin-bottom: 20px;
+}
+
+/* Adjust layout for the profile image on the left */
+header {
+    position: relative;
+}
+
+.header-info {
+    max-width: 500px;
+}
+
+/* Optional: You can add padding or change font sizes as needed */
